@@ -13,49 +13,75 @@
 </head>
 
 <body>
-
-	<header id="navhead">
-		<div class="container">
-			<a href="index.html" id="myname">Adam Kahane</a>
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<u><a href="contact.html">Contact</a></u>
+	<div class="container px-0">
+		<div class="row mw-100 p-0 m-0">
+			<a href="index.html" class="col-xs-12 col-sm-12 col-md-12 col-lg-3 h2 text-center mb-0 py-4 text-light bg-info font-weight-bold">Adam Kahane</a>
+			<nav class="navbar col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center ml-auto">
+				<a href="index.html" class="text-secondary col-xs-4 col-sm-4 col-md-4 col-lg-4 p-2">About</a>
+				<a href="portfolio.html" class="text-secondary col-xs-4 col-sm-4 col-md-4 col-lg-4 p-2">Portfolio</a>
+				<u class="col-xs-4 col-sm-4 col-md-4 col-lg-4 p-2"><a href="contact.html" class="text-secondary">Contact</a></u>
 			</nav>
 		</div>
-	</header>
-
-	<div id="full" class="container">
-		
-		<section class="main">
-				<h1>Contact</h1>
-
-			<form>
-  				Name<br>
-  				<input type="text" name="firstname"><br>
-  				Email<br>
-  				<input type="text" name="email"><br>
-  				Message<br>
-  				<textarea type="text" name="message"></textarea><br>
-  				<button>Submit</button>
-			</form>
-	
-		</section>
-	
-		<aside>
-				<h2>Connect with Me</h2>
-				<a href="https://github.com/adkahane" target="_blank"><img src="assets/images/if_github_square_black_107109.png" class="connect" alt="GitHub" /></a>
-				<a href="https://www.linkedin.com/in/adam-kahane-70a291b0/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="connect" alt="LinkedIn" /></a>
-				<a href="https://stackoverflow.com/users/9185226/adam-kahane?tab=profile" target="_blank"><img src="assets/images/if_stackoverflow_273179.png" class="connectStack" alt="Stack Overflow"></a>
-		</aside>
-
 	</div>
 
-	<footer>
-		<div class="container">
-			<h5>&copy; Copyright 2018 Adam Kahane</h5>
+	<div class="w-100 m-0 border border-secondary-1 mb-5">
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+		
+			<section class="col-xs-12 col-sm-12 col-md-7 col-lg-7 mb-5 border border-secondary-1">
+				<div class="row mx-0 mb-3 border border-right-0 border-top-0 border-left-0 border-secondary-2">
+					<div class="col-sm-5 px-0 h2 text-info font-weight-bold">
+						<p class="my-2">Contact</p>
+					</div>
+				</div>
+
+				<form>
+  					<div class="form-group">
+    					<label for="exampleFormControlInput1">Name</label>
+    					<input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+ 					</div>
+					<div class="form-group">
+    					<label for="exampleFormControlInput1">Email</label>
+    					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@something.com">
+ 					</div>
+ 					<div class="form-group">
+    					<label for="exampleFormControlTextarea1">Message</label>
+    					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  					</div>
+  					<button type="submit" class="btn btn-info mb-2">Submit</button>
+				</form>
+	
+			</section>
+		
+			<div class="col-md-1 col-lg-1">
+			</div>
+
+			<aside class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mb-auto border border-secondary-1">
+				<div class="row mx-0 mb-3 border border-right-0 border-top-0 border-left-0 border-secondary-1">
+					<p class="col-12 h4 text-info font-weight-bold text-center mx-auto">Connect with Me</p>
+				</div>
+				<div class="row mx-auto py-5">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<a href="https://github.com/adkahane" target="_blank"><img src="assets/images/if_github_square_black_107109.png" class="img-thumbnail" alt="GitHub" /></a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<a href="https://www.linkedin.com/in/adam-kahane-70a291b0/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="img-thumbnail" alt="LinkedIn" /></a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<a href="https://stackoverflow.com/users/9185226/adam-kahane?tab=profile" target="_blank"><img src="assets/images/if_stackoverflow_273179.png" class="img-thumbnail" alt="Stack Overflow"></a>
+					</div>
+				</div>
+			</aside>
+
 		</div>
-	</footer>
+	</div>
+
+	<div class="fixed-bottom container mw-100 w-100 m-0 px-0 h5 text-center bg-dark text-light border border-bottom-0 border-left-0 border-right-0 border-info">
+		<h5>&copy; Copyright 2018 Adam Kahane</h5>
+	</div>
 
 </body>
 
